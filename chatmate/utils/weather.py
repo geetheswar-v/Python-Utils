@@ -29,23 +29,23 @@ class Weather:
         response = self.get_response()
         return json.loads(response.text)
 
-    def is_online(self):
+    def is_success(self):
         return self.get_response().status_code == 200
 
     def get_coord(self):
-        if self.is_online():
+        if self.is_success():
             return self.get_data()['coord']['lon'], self.get_data()['coord']['lat']
 
     def get_temp(self):
-        if self.is_online():
+        if self.is_success():
             return self.get_data()['main']['temp']
 
     def get_dsc(self):
-        if self.is_online():
+        if self.is_success():
             return self.get_data()['weather']['description']
 
     def get_feel_temp(self):
-        if self.is_online():
+        if self.is_success():
             return self.get_data()['main']['feels_like']
 
     def get_humidity(self):
