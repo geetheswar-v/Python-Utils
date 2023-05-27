@@ -10,6 +10,7 @@ keys.py
 # Distribution / packaging
 .Python
 build/
+tests/
 develop-eggs/
 dist/
 downloads/
