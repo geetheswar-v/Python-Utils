@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01563f34-cd26-4484-9bda-a8dd481ce5a7" name="Changes" comment="Update Weather class">
-      <change afterPath="$PROJECT_DIR$/chatmate/utils/predictor/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatmate/utils/predictor/stocks/__init__.py" afterDir="false" />
+    <list default="true" id="01563f34-cd26-4484-9bda-a8dd481ce5a7" name="Changes" comment="ignore">
+      <change afterPath="$PROJECT_DIR$/chatmate/data/conversation_data_one.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +49,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/geetheswar/Documents/projects/ChatMate&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/geetheswar/Documents/projects/ChatMate/chatmate/data&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -58,6 +57,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chatmate/data" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,6 +81,13 @@
       <workItem from="1684914945082" duration="4000" />
       <workItem from="1684915170688" duration="5000" />
       <workItem from="1685093846383" duration="1836000" />
+      <workItem from="1685101869920" duration="1120000" />
+      <workItem from="1685103035526" duration="739000" />
+      <workItem from="1685107958659" duration="11000" />
+      <workItem from="1685108033854" duration="10000" />
+      <workItem from="1685174386650" duration="1264000" />
+      <workItem from="1685187947844" duration="3000" />
+      <workItem from="1685188359204" duration="409000" />
     </task>
     <task id="LOCAL-00001" summary="Added Math Expression Evaluator">
       <created>1684842753214</created>
@@ -120,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684875948122</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ignore">
+      <created>1685101899616</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685101899616</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +148,8 @@
     <MESSAGE value="Added Math Expression Evaluator" />
     <MESSAGE value="Added Weather Class to get Weather info using api calls" />
     <MESSAGE value="Update Weather class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Weather class" />
+    <MESSAGE value="ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ChatMate$token.coverage" NAME="token Coverage Results" MODIFIED="1684822336713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatmate/utils/solver" />
