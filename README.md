@@ -1,8 +1,8 @@
 # Python Utils
 
-*Python utils* is project that created by *Group F11*. This project includes data science and as well as some basic application features to learn more about python and it's libraries.
+**Python utils** is project that created by **Group F11**. This project includes data science and as well as some basic application features to learn more about python and it's libraries.
 
-*Our Group Details:*
+**Our Group Details:**
 | Name                    | Roll No. |
 |----------|----------|
 | Vedachalam Geetheswar   | 142201025   |
@@ -77,6 +77,7 @@ ___
     - Numpy
     - Json
     - Pickle
+    - re
 2. Stocks
     - Yfinance
     - Prophet
