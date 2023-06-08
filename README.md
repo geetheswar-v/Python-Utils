@@ -10,7 +10,7 @@
 | Devi Shiva Shankar      | 142201028   |
   
   
-## 1. ChateMate
+## 1. ChatMate
 
   A Chatbot that can give information of Our Insitiute Details. Since we have less knowledge about Deep Learning we tried our best to make some improvements in our project like adding live data getting weather details using Open Weather API, e.t.c.  
   ![seq](https://drive.google.com/uc?export=view&id=1eHX1FlEsd9OQSzOCFOP9-k0vXQl996Gp)
