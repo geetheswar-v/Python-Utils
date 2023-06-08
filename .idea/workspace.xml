@@ -4,9 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01563f34-cd26-4484-9bda-a8dd481ce5a7" name="Changes" comment="session one of sample data processing for lstm model">
-      <change afterPath="$PROJECT_DIR$/chatmate/sample_lstm_model.py" afterDir="false" />
+    <list default="true" id="01563f34-cd26-4484-9bda-a8dd481ce5a7" name="Changes" comment="ChatMate Model and helper classes">
+      <change afterPath="$PROJECT_DIR$/calculator/converter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/predictor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Home.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/1_Stocks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/2_Chatbot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/3_Calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/4_Weather.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/read.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/seq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/seq_dense.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatmate/utils/evaluator/evaluator.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/evaluator/evaluator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatmate/utils/evaluator/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/evaluator/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatmate/utils/evaluator/tokens.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/evaluator/tokens.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatmate/utils/weather.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,25 +58,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/geetheswar/Documents/projects/ChatMate/notebooks/data_preprocess/session1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/geetheswar/Documents/projects/ChatMate/assets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/chatmate/files" />
       <recent name="$PROJECT_DIR$/notebooks/data_preprocess/session1" />
       <recent name="$PROJECT_DIR$/chatmate/data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/private" />
+      <recent name="$PROJECT_DIR$/weather" />
+      <recent name="$PROJECT_DIR$/calculator" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -96,6 +117,23 @@
       <workItem from="1685608162226" duration="70000" />
       <workItem from="1685608238992" duration="1076000" />
       <workItem from="1685609960399" duration="820000" />
+      <workItem from="1685751218651" duration="6363000" />
+      <workItem from="1685767363765" duration="508000" />
+      <workItem from="1685785210286" duration="50000" />
+      <workItem from="1685785268532" duration="6252000" />
+      <workItem from="1685796782428" duration="4351000" />
+      <workItem from="1685802316747" duration="100000" />
+      <workItem from="1685855530811" duration="5433000" />
+      <workItem from="1685867458482" duration="20118000" />
+      <workItem from="1686091130348" duration="8562000" />
+      <workItem from="1686127016796" duration="5268000" />
+      <workItem from="1686156677673" duration="318000" />
+      <workItem from="1686157748316" duration="354000" />
+      <workItem from="1686163938757" duration="1619000" />
+      <workItem from="1686169059070" duration="311000" />
+      <workItem from="1686169573458" duration="1856000" />
+      <workItem from="1686202665352" duration="649000" />
+      <workItem from="1686203367508" duration="353000" />
     </task>
     <task id="LOCAL-00001" summary="Added Math Expression Evaluator">
       <created>1684842753214</created>
@@ -181,7 +219,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685610538467</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ignore">
+      <created>1685751295740</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685751295740</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ignore">
+      <created>1686164356076</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686164356076</updated>
+    </task>
+    <task id="LOCAL-00015" summary="ChatMate Model and helper classes">
+      <created>1686203313660</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686203313660</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,20 +250,29 @@
     <MESSAGE value="Added Math Expression Evaluator" />
     <MESSAGE value="Added Weather Class to get Weather info using api calls" />
     <MESSAGE value="Update Weather class" />
-    <MESSAGE value="ignore" />
     <MESSAGE value="Removed all dataset from other sources and removed previous models" />
     <MESSAGE value="Forget to remove last dataset and test files" />
     <MESSAGE value="ignoring tests classes and added unit testing for testing purpose" />
     <MESSAGE value="ignoring changes" />
     <MESSAGE value="session one of sample data processing for lstm model" />
-    <option name="LAST_COMMIT_MESSAGE" value="session one of sample data processing for lstm model" />
+    <MESSAGE value="ignore" />
+    <MESSAGE value="ChatMate Model and helper classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="ChatMate Model and helper classes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ChatMate$token.coverage" NAME="token Coverage Results" MODIFIED="1684822336713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatmate/utils/solver" />
-    <SUITE FILE_PATH="coverage/ChatMate$tokens.coverage" NAME="tokens Coverage Results" MODIFIED="1684842214926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatmate/utils/evaluator" />
-    <SUITE FILE_PATH="coverage/ChatMate$test.coverage" NAME="test Coverage Results" MODIFIED="1684840441391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatmate/utils" />
-    <SUITE FILE_PATH="coverage/ChatMate$evaluator.coverage" NAME="evaluator Coverage Results" MODIFIED="1684842459425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatmate/utils/evaluator" />
+    <SUITE FILE_PATH="coverage/ChatMate$2_Chatbot.coverage" NAME="2_Chatbot Coverage Results" MODIFIED="1685873813757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/pages" />
+    <SUITE FILE_PATH="coverage/ChatMate$helper.coverage" NAME="helper Coverage Results" MODIFIED="1686077778680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatmate" />
+    <SUITE FILE_PATH="coverage/ChatMate$4_Weather.coverage" NAME="4_Weather Coverage Results" MODIFIED="1685752745931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/pages" />
+    <SUITE FILE_PATH="coverage/ChatMate$test.coverage" NAME="test Coverage Results" MODIFIED="1685867856123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatmate" />
+    <SUITE FILE_PATH="coverage/ChatMate$converter.coverage" NAME="converter Coverage Results" MODIFIED="1686131477881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/calculator" />
     <SUITE FILE_PATH="coverage/ChatMate$lexer.coverage" NAME="lexer Coverage Results" MODIFIED="1684837245317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatmate/utils/solver" />
+    <SUITE FILE_PATH="coverage/ChatMate$tag_dicts.coverage" NAME="tag_dicts Coverage Results" MODIFIED="1685861358470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatmate" />
+    <SUITE FILE_PATH="coverage/ChatMate$3_Calculator.coverage" NAME="3_Calculator Coverage Results" MODIFIED="1685888690697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/pages" />
+    <SUITE FILE_PATH="coverage/ChatMate$tokens.coverage" NAME="tokens Coverage Results" MODIFIED="1684842214926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatmate/utils/evaluator" />
+    <SUITE FILE_PATH="coverage/ChatMate$model.coverage" NAME="model Coverage Results" MODIFIED="1686169151673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatmate" />
+    <SUITE FILE_PATH="coverage/ChatMate$evaluator.coverage" NAME="evaluator Coverage Results" MODIFIED="1685877791812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/calculator/evaluator" />
     <SUITE FILE_PATH="coverage/ChatMate$parser.coverage" NAME="parser Coverage Results" MODIFIED="1684842197146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatmate/utils/evaluator" />
+    <SUITE FILE_PATH="coverage/ChatMate$predictor.coverage" NAME="predictor Coverage Results" MODIFIED="1686075976245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stocks" />
   </component>
 </project>
