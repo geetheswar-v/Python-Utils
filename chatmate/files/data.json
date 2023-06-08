@@ -1,0 +1,58 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thank you", "Thanks", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure", "You're Welcome", "I am happy that i am helpful to you"]
+        },
+        {"tag": "weather",
+         "patterns": ["What is the weather in city?", "How is the weather today in city?"],
+         "responses": [""]
+        },
+        {"tag": "calculator",
+         "patterns": ["calculate number", "what is the answer for number"],
+         "responses": [""]
+        },
+        {"tag": "stocks",
+         "patterns": ["Predict the stocks of ticker?", "What is the value of ticker today "],
+         "responses": [""]
+        },
+        {"tag": "time",
+         "patterns": ["What time is it?", "What is the time now?"],
+         "responses": [""]
+        },
+        {"tag": "iit_pkd",
+         "patterns": ["Who is dr. name?", "tell me about dr. name", "do you know name", "Who is name", "tell me about name"],
+         "responses": [""]
+        },
+        {"tag": "query1",
+        "patterns": ["What is your name"],
+        "responses": ["My name is ChatMate. How can i help you"]
+        },
+        {"tag": "query1",
+        "patterns": ["What is your nickname"],
+        "responses": ["My nickname is Chikki. Speed 1 TerraByte Memory 1 ZetaByte"]
+        },
+        {"tag": "query3",
+        "patterns": ["Who created you?", "Who invented you"],
+        "responses": ["Me! I am created by myself."]
+        },
+        {"tag": "query4",
+        "patterns": ["What is your age", "When were you born"],
+        "responses": ["I don't have age and I don't have birth"]
+        },
+        {"tag": "query5",
+        "patterns": ["what are you made for", "can you help me"],
+        "responses": ["I made for to assist about any iit palakkad info and i can help you with this."]
+        },
+        {"tag": "jokes",
+        "patterns": ["tell me a joke", "make a funny joke", "be funny"],
+        "responses": ["I made for to learn machine learning"]
+        }
+]}

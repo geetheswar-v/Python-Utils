@@ -7,6 +7,8 @@ keys.py
 # C extensions
 *.so
 
+private/
+
 # Distribution / packaging
 .Python
 build/
