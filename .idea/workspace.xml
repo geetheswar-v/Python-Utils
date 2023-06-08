@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01563f34-cd26-4484-9bda-a8dd481ce5a7" name="Changes" comment="Removing files">
-      <change afterPath="$PROJECT_DIR$/calculator/converter.py" afterDir="false" />
+    <list default="true" id="01563f34-cd26-4484-9bda-a8dd481ce5a7" name="Changes" comment="Added Currency Converter">
       <change afterPath="$PROJECT_DIR$/calculator/evaluator/evaluator.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/calculator/evaluator/parser.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/calculator/evaluator/tokens.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stocks/predictor.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/weather/helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/Home.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pages/1_Stocks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pages/2_Chatbot.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/pages/3_Calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pages/4_Weather.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatmate/files/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/chatmate/files/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pages/4_Weather.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/4_Weather.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +125,7 @@
       <workItem from="1686169059070" duration="311000" />
       <workItem from="1686169573458" duration="1856000" />
       <workItem from="1686202665352" duration="649000" />
-      <workItem from="1686203367508" duration="1486000" />
+      <workItem from="1686203367508" duration="10815000" />
     </task>
     <task id="LOCAL-00001" summary="Added Math Expression Evaluator">
       <created>1684842753214</created>
@@ -243,7 +239,28 @@
       <option name="project" value="LOCAL" />
       <updated>1686204568281</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="test commit">
+      <created>1686204998515</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1686204998515</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Implemented Web Ui and Added stock prediction app">
+      <created>1686205571079</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1686205571079</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added Currency Converter">
+      <created>1686213010092</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1686213010092</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +278,10 @@
     <MESSAGE value="ignore" />
     <MESSAGE value="ChatMate Model and helper classes" />
     <MESSAGE value="Removing files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removing files" />
+    <MESSAGE value="test commit" />
+    <MESSAGE value="Implemented Web Ui and Added stock prediction app" />
+    <MESSAGE value="Added Currency Converter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Currency Converter" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ChatMate$token.coverage" NAME="token Coverage Results" MODIFIED="1684822336713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatmate/utils/solver" />
@@ -269,7 +289,7 @@
     <SUITE FILE_PATH="coverage/ChatMate$helper.coverage" NAME="helper Coverage Results" MODIFIED="1686077778680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatmate" />
     <SUITE FILE_PATH="coverage/ChatMate$4_Weather.coverage" NAME="4_Weather Coverage Results" MODIFIED="1685752745931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/pages" />
     <SUITE FILE_PATH="coverage/ChatMate$test.coverage" NAME="test Coverage Results" MODIFIED="1685867856123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatmate" />
-    <SUITE FILE_PATH="coverage/ChatMate$converter.coverage" NAME="converter Coverage Results" MODIFIED="1686131477881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/calculator" />
+    <SUITE FILE_PATH="coverage/ChatMate$converter.coverage" NAME="converter Coverage Results" MODIFIED="1686212218584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/calculator" />
     <SUITE FILE_PATH="coverage/ChatMate$lexer.coverage" NAME="lexer Coverage Results" MODIFIED="1684837245317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatmate/utils/solver" />
     <SUITE FILE_PATH="coverage/ChatMate$tag_dicts.coverage" NAME="tag_dicts Coverage Results" MODIFIED="1685861358470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatmate" />
     <SUITE FILE_PATH="coverage/ChatMate$3_Calculator.coverage" NAME="3_Calculator Coverage Results" MODIFIED="1685888690697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/pages" />
