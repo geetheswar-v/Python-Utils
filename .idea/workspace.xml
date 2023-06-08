@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01563f34-cd26-4484-9bda-a8dd481ce5a7" name="Changes" comment="ChatMate Model and helper classes">
+    <list default="true" id="01563f34-cd26-4484-9bda-a8dd481ce5a7" name="Changes" comment="Removing files">
       <change afterPath="$PROJECT_DIR$/calculator/converter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/evaluator/evaluator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/evaluator/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/evaluator/tokens.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/stocks/predictor.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/weather/helper.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/Home.py" afterDir="false" />
@@ -14,13 +17,6 @@
       <change afterPath="$PROJECT_DIR$/web/pages/3_Calculator.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/pages/4_Weather.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/seq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/seq_dense.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatmate/utils/evaluator/evaluator.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/evaluator/evaluator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatmate/utils/evaluator/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/evaluator/parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatmate/utils/evaluator/tokens.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/evaluator/tokens.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatmate/utils/weather.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +129,7 @@
       <workItem from="1686169059070" duration="311000" />
       <workItem from="1686169573458" duration="1856000" />
       <workItem from="1686202665352" duration="649000" />
-      <workItem from="1686203367508" duration="353000" />
+      <workItem from="1686203367508" duration="1486000" />
     </task>
     <task id="LOCAL-00001" summary="Added Math Expression Evaluator">
       <created>1684842753214</created>
@@ -240,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686203313660</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Removing files">
+      <created>1686204568281</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686204568281</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +260,8 @@
     <MESSAGE value="session one of sample data processing for lstm model" />
     <MESSAGE value="ignore" />
     <MESSAGE value="ChatMate Model and helper classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="ChatMate Model and helper classes" />
+    <MESSAGE value="Removing files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing files" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ChatMate$token.coverage" NAME="token Coverage Results" MODIFIED="1684822336713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatmate/utils/solver" />
