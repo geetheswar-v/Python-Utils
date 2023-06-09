@@ -53,7 +53,7 @@ A simple stock predictor app using **Facebook Prophet**. It is a forecasting too
 ![stock2](https://drive.google.com/uc?export=view&id=1Dcijo-d_Yl0L4ciqZcTslq-cHy1rYZsz)
 
 ## 3. Calculator App
-A Simple Calculator and Conveter Application which is inbuilt from scratch using Datastructures and stacks for procedence.
+A Simple Calculator and Conveter Application which is inbuilt from scratch using Datastructures(Shunting Yard Algorithm) and stacks for procedence.
 
 **Code Structure:**  
 
@@ -84,3 +84,10 @@ ___
 3. Weather
      - Requests
      - Json
+
+### TO-DOs:
+- [ ] Make a seq2seq model with attention and beam search
+- [ ] Make Seperate application for different apps
+- [ ] Improvise evaluator with custom function and variable support
+- [ ] Add DB to bot to store data of messages and make generative bot
+- [ ] Add Fedena(if possible) to fetch details of SGPA, CGPA
